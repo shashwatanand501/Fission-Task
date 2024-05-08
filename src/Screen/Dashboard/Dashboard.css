@@ -1,0 +1,21 @@
+.form_btn_container{
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    z-index: 99;
+    height: 90vh;
+    flex-direction: column;
+}
+.form_btn_container a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 36px;
+}
+.form_btn_container a:active{
+    opacity: 2.5;
+    background-color: #e5e2e2;
+}
